@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="560" viewBox="0 0 760 560" role="img" aria-labelledby="budget-title budget-desc">
+<title id="budget-title">Le passage d'un mois au suivant</title>
+<desc id="budget-desc">Trois panneaux isométriques marqués Janvier, Février et Mars, reliés par des flux bleus. Des documents et des jetons illustrent la différence entre les prévisions de vente et le calendrier des encaissements. Aucune valeur chiffrée n'est représentée.</desc>
+<defs>
+<linearGradient id="budget-face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#FFFFFF" stop-opacity=".98"/><stop offset="1" stop-color="#D7ECFF" stop-opacity=".98"/></linearGradient>
+<linearGradient id="budget-side" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#A3D0FA"/><stop offset="1" stop-color="#3C8ED5"/></linearGradient>
+<linearGradient id="budget-blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#71BDFF"/><stop offset="1" stop-color="#1476D1"/></linearGradient>
+<linearGradient id="budget-dark" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#344A62"/><stop offset="1" stop-color="#1D1D1F"/></linearGradient>
+<linearGradient id="budget-base" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#F9FCFF"/><stop offset="1" stop-color="#C5E2FD"/></linearGradient>
+<radialGradient id="budget-halo"><stop stop-color="#2997FF" stop-opacity=".22"/><stop offset="1" stop-color="#2997FF" stop-opacity="0"/></radialGradient>
+<filter id="budget-shadow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="13"/></filter>
+<filter id="budget-card-shadow" x="-30%" y="-30%" width="180%" height="180%"><feDropShadow dx="-8" dy="16" stdDeviation="8" flood-color="#0D3F72" flood-opacity=".15"/></filter>
+</defs>
+<style>.budget-flow{stroke-dasharray:7 12;animation:budget-flow 10s linear infinite}.budget-pulse{animation:budget-pulse 4s ease-in-out infinite}@keyframes budget-flow{to{stroke-dashoffset:-190}}@keyframes budget-pulse{0%,100%{opacity:.45}50%{opacity:1}}@media(prefers-reduced-motion:reduce){.budget-flow,.budget-pulse{animation:none}}</style>
+<ellipse cx="393" cy="365" rx="353" ry="160" fill="url(#budget-halo)"/>
+<ellipse cx="386" cy="430" rx="272" ry="66" fill="#133E6B" opacity=".15" filter="url(#budget-shadow)"/>
+<path d="M56 379 522 192 717 315 251 507Z" fill="#87B9E7"/>
+<path d="M56 365 522 178 717 301 251 493Z" fill="url(#budget-base)" stroke="#DBEEFF" stroke-width="1.5"/>
+<path d="M56 365v14l195 128v-14Z" fill="#A9D0F1"/>
+<path d="M251 493v14l466-192v-14Z" fill="#639FD2"/>
+<!-- Thin milled paths on the presentation deck. -->
+<path d="m91 364 424-171m-386 197 424-170m-384 197 424-171m-383 197 424-171" fill="none" stroke="#AFCFEF" stroke-width=".8"/>
+<path d="m172 318 167 106m-76-142 167 106m-75-142 167 106m-76-142 167 106" fill="none" stroke="#AFCFEF" stroke-width=".8"/>
+<!-- Back flow: commitments move across the calendar. -->
+<path d="M149 246C111 140 206 90 294 135S415 211 499 123" stroke="#7DBDF7" stroke-opacity=".35" stroke-width="13" fill="none"/>
+<path class="budget-flow" d="M149 246C111 140 206 90 294 135S415 211 499 123" stroke="#2997FF" stroke-width="2.5" fill="none"/>
+<g transform="matrix(1 -.33 0 1 510 123)" filter="url(#budget-card-shadow)"><path d="M0 0-12-8v203l12 11Z" fill="#78ADE0"/><path d="M0 0-12-8h146l12 8Z" fill="#E4F2FF"/><rect x="0" y="0" width="146" height="206" rx="13" fill="url(#budget-face)" stroke="#C0DDF7" stroke-width="1.2"/><rect x="15" y="17" width="116" height="31" rx="8" fill="#E4F1FF"/><text x="73" y="38" text-anchor="middle" fill="#244462" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">Mars</text><rect x="24" y="65" width="74" height="92" rx="7" fill="#FBFBFD" stroke="#B7D3EC"/><path d="M76 65v22h22" fill="#D8ECFE" stroke="#B7D3EC" stroke-width="1"/><path d="M37 103h46m-46 13h35m-35 13h42m-42 13h25" stroke="#9BBBD7" stroke-width="3" stroke-linecap="round"/><rect x="37" y="77" width="24" height="7" rx="3.5" fill="#5EACFF"/><ellipse cx="108" cy="145" rx="26" ry="27" fill="#1375CC"/><ellipse cx="104" cy="142" rx="26" ry="27" fill="url(#budget-blue)" stroke="#A3D8FF" stroke-width="1.2"/><path d="M113 131c-2-3-5-4-8-4-7 0-12 6-12 15s5 15 12 15c3 0 6-1 8-4m-24-15h19m-19 8h16" fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round"/><path d="M25 182h67" stroke="#B4D1E9" stroke-width="4" stroke-linecap="round"/><circle cx="118" cy="182" r="5" fill="#2997FF"/></g><g transform="matrix(1 -.33 0 1 316 192)" filter="url(#budget-card-shadow)"><path d="M0 0-12-8v203l12 11Z" fill="#78ADE0"/><path d="M0 0-12-8h146l12 8Z" fill="#E4F2FF"/><rect x="0" y="0" width="146" height="206" rx="13" fill="url(#budget-face)" stroke="#C0DDF7" stroke-width="1.2"/><rect x="15" y="17" width="116" height="31" rx="8" fill="#1D1D1F"/><text x="73" y="38" text-anchor="middle" fill="#FFFFFF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">Février</text><rect x="24" y="65" width="74" height="92" rx="7" fill="#FBFBFD" stroke="#B7D3EC"/><path d="M76 65v22h22" fill="#D8ECFE" stroke="#B7D3EC" stroke-width="1"/><path d="M37 103h46m-46 13h35m-35 13h42m-42 13h25" stroke="#9BBBD7" stroke-width="3" stroke-linecap="round"/><rect x="37" y="77" width="24" height="7" rx="3.5" fill="#5EACFF"/><ellipse cx="108" cy="145" rx="26" ry="27" fill="#1375CC"/><ellipse cx="104" cy="142" rx="26" ry="27" fill="url(#budget-blue)" stroke="#A3D8FF" stroke-width="1.2"/><path d="M113 131c-2-3-5-4-8-4-7 0-12 6-12 15s5 15 12 15c3 0 6-1 8-4m-24-15h19m-19 8h16" fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round"/><path d="M25 182h67" stroke="#B4D1E9" stroke-width="4" stroke-linecap="round"/><circle cx="118" cy="182" r="5" fill="#2997FF"/></g><g transform="matrix(1 -.33 0 1 122 261)" filter="url(#budget-card-shadow)"><path d="M0 0-12-8v203l12 11Z" fill="#78ADE0"/><path d="M0 0-12-8h146l12 8Z" fill="#E4F2FF"/><rect x="0" y="0" width="146" height="206" rx="13" fill="url(#budget-face)" stroke="#C0DDF7" stroke-width="1.2"/><rect x="15" y="17" width="116" height="31" rx="8" fill="#E4F1FF"/><text x="73" y="38" text-anchor="middle" fill="#244462" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">Janvier</text><rect x="24" y="65" width="74" height="92" rx="7" fill="#FBFBFD" stroke="#B7D3EC"/><path d="M76 65v22h22" fill="#D8ECFE" stroke="#B7D3EC" stroke-width="1"/><path d="M37 103h46m-46 13h35m-35 13h42m-42 13h25" stroke="#9BBBD7" stroke-width="3" stroke-linecap="round"/><rect x="37" y="77" width="24" height="7" rx="3.5" fill="#5EACFF"/><ellipse cx="108" cy="145" rx="26" ry="27" fill="#1375CC"/><ellipse cx="104" cy="142" rx="26" ry="27" fill="url(#budget-blue)" stroke="#A3D8FF" stroke-width="1.2"/><path d="M113 131c-2-3-5-4-8-4-7 0-12 6-12 15s5 15 12 15c3 0 6-1 8-4m-24-15h19m-19 8h16" fill="none" stroke="#FFFFFF" stroke-width="2.7" stroke-linecap="round"/><path d="M25 182h67" stroke="#B4D1E9" stroke-width="4" stroke-linecap="round"/><circle cx="118" cy="182" r="5" fill="#2997FF"/></g><path d="M238 424C287 454 311 390 350 388S417 409 437 362 488 330 529 319" fill="none" stroke="#E9F6FF" stroke-width="15" stroke-linecap="round"/>
+<path d="M238 424C287 454 311 390 350 388S417 409 437 362 488 330 529 319" fill="none" stroke="#2997FF" stroke-width="3" stroke-linecap="round"/>
+<g class="budget-pulse"><circle cx="350" cy="388" r="14" fill="#2997FF" opacity=".13"/><circle cx="350" cy="388" r="6" fill="#FBFBFD" stroke="#2997FF" stroke-width="3"/></g>
+<circle cx="529" cy="319" r="6" fill="#FBFBFD" stroke="#2997FF" stroke-width="3"/>
+<!-- Circular controller anchored to the foreground of the platform. -->
+<g transform="translate(553 402)">
+<ellipse cy="11" rx="57" ry="33" fill="#4087C5"/>
+<ellipse rx="57" ry="33" fill="url(#budget-dark)" stroke="#9DCDF6" stroke-width="1.5"/>
+<ellipse rx="43" ry="24" fill="none" stroke="#52718D" stroke-width="2"/>
+<path d="M-38-11C-21-27 25-24 40-8" fill="none" stroke="#5EACFF" stroke-width="4" stroke-linecap="round"/>
+<path d="m-17 0 11 8L19-7" fill="none" stroke="#FBFBFD" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<!-- Two small detached ledger tiles add depth without numerical data. -->
+<g transform="matrix(.9 -.32 .18 .94 575 58)">
+<rect width="64" height="65" rx="12" fill="#FBFBFD" stroke="#B1D6F7"/>
+<rect x="13" y="15" width="36" height="6" rx="3" fill="#2997FF"/>
+<path d="M14 33h34m-34 10h24m-24 10h30" stroke="#A5C7E4" stroke-width="3" stroke-linecap="round"/>
+</g>
+<circle cx="89" cy="164" r="22" fill="#2997FF" opacity=".06"/><circle cx="89" cy="164" r="11" fill="#2997FF" opacity=".1"/><circle cx="89" cy="164" r="3.5" fill="#5EACFF"/>
+</svg>

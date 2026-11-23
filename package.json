@@ -1,0 +1,11 @@
+{
+  "name": "ncr-go-missions",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deux jeux individuels de gestion opérationnelle BTS MCO, NCR Solutions.",
+  "scripts": {
+    "test": "node --test tests/core.test.cjs",
+    "serve": "python3 -m http.server 8080 --bind 127.0.0.1 --directory dist",
+    "standalone": "python3 tools/build_standalone.py"
+  }
+}
