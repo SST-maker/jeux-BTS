@@ -1,0 +1,26 @@
+{
+  "id": "./",
+  "name": "NCR Missions — BTS MCO",
+  "short_name": "NCR Missions",
+  "lang": "fr",
+  "description": "Séances et missions pédagogiques BTS MCO — GO, ADOC et DRCV",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fbfbfd",
+  "theme_color": "#172d43",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}
